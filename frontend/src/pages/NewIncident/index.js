@@ -1,12 +1,44 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
+
+import api from '../../services/api';
 
 import './styles.css'
 
 import logoImg from '../../assets/logo.svg';
 
 export default function NewIncident() {
+    const [title, setTitle] = useState('');
+    const [description, setDescription] = useState('');
+    const [value, setValue] = useState('');
+
+    const ongId = localStorage.getItem('ongId');
+    const history = useHistory();
+
+    async function handleNewIncident(event){
+        event.preventDefault();
+
+        const data= {
+            title,
+            description,
+            value
+        };
+
+        try {
+            await api.post('incidents', data, {
+                headers: {
+                    auth: ongId,
+                }
+            });
+            alert('You sucessfully created an incident!');
+
+            history.push('/profile');
+        } catch (err) {
+            alert('Error creating new incident, maybe try again later?')
+        }
+    }
+
     return (
         <div className="newincident-container">
             <div className="content">
@@ -21,10 +53,22 @@ export default function NewIncident() {
                     </Link>
                 </section>
 
-                <form>
-                    <input placeholder="Incident title"/>
-                    <textarea placeholder="Description"/>
-                    <input placeholder="Value"/>
+                <form onSubmit={handleNewIncident}>
+                    <input 
+                        placeholder="Incident title"
+                        value={title}
+                        onChange={event => setTitle(event.target.value)}
+                    />
+                    <textarea 
+                        placeholder="Description"
+                        value={description}
+                        onChange={event => setDescription(event.target.value)}
+                    />
+                    <input 
+                        placeholder="Value in R$"
+                        value={value}
+                        onChange={event => setValue(event.target.value)}
+                    />
             
 
                     <button className="button" type="submit">Register</button>
