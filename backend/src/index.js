@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors')
+const { errors } = require('celebrate');
 const routes = require('./routes'); //Importa o módulo de rotas definidos em routes.js utilizado o Roteador do express.
 
 const app = express();
@@ -7,6 +8,8 @@ const app = express();
 app.use(cors());
 app.use(express.json()); //Quando enviamos um body em json é necessário informar ao express que a rota utilizada será em json, sendo assim chama-se a função app.use(express.json());
 app.use(routes); //É importante que esta linha de código se mantenha abaixo do express.json!
+
+app.use(errors());
 
 app.listen(3333);
 
