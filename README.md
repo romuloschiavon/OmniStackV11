@@ -18,8 +18,8 @@ The concept ideia about the project is, a lot of non-profits have cases (inciden
 
 ## See the project for yourself
 If you want to see the project working, check out the screenshots and videos or execute it using the instructions detailed at:
-- [Backend](/backend/README.md)
-- [Frontend](/frontend/README.md)
-- [Mobile](/mobile/README.md)
+- [Backend](https://github.com/romuloschiavon/OmniStackV11/blob/master/backend/README.md)
+- [Frontend](https://github.com/romuloschiavon/OmniStackV11/blob/master/frontend/README.md)
+- [Mobile](https://github.com/romuloschiavon/OmniStackV11/blob/master/mobile/README.md)
 
 This is an open-source development, feel free to fork, clone, and update even more the platform.
