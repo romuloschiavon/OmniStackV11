@@ -2,7 +2,7 @@
 The mobile area of the project is dedicated to heroes, our users, they should be able to see the incidents, enter in contact with the Non-profits via email/whatsapp and see the details of the incidents. <br />
 
 **See the Usage:** <br />
-![usage](https://i.imgur.com/l4N2MPM.mp4)
+![usage](https://i.imgur.com/l4N2MPM.gif)
 
 
 ## Script List
