@@ -5,7 +5,7 @@ If you just want to see the system working go to:
 - [Frontend](https://github.com/romuloschiavon/OmniStackV11/blob/master/frontend/README.md)
 - [Mobile](https://github.com/romuloschiavon/OmniStackV11/blob/master/mobile/README.md)
 
-## Getting Started
+## Server Set-up
 For the project to run you should **have installed [Node and Node Package Manager(NPM)](https://nodejs.org/en/docs/guides/getting-started-guide/)**, checkout their getting started for more information about how to install them at your machine.
 
 After cloning the repository (OmniStackV11) we will start by installing all the dependencies the server will require.
