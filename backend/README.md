@@ -19,6 +19,18 @@ If all the instalations are succesfful you can run **>```npm start```**, and the
 
 ![And This](https://i.imgur.com/nEihNJt.gif)
 
-##### FAQ/Common Issues
+## **Testing**
+For testing we're using the TDD method. Exceptionally this time (we developed before we created the tests because of the short period of time for dev), so **DO NOT** expect all the testing to be implemented, that is a WIP!
+
+### Running tests:
+Go to the backend folder and **open a terminal inside it**, then run **>```npm test```**. You should run all the tests and see if any of them PASS or FAIL.
+
+![Like this](https://i.imgur.com/1Mlxw9a.gif)
+
+For **creating new tests//changing variables for testing** go to 'backend/tests/':
+- For *integration tests*: 'backend/tests/integration/'
+- For *unit tests*: 'backend/tests/unit/
+
+## **FAQ/Common Issues**
 -	>Note that the backend server will listen to the port 3333 @ http://localhost:3333/. If that port is already in use you should change it inside ./backend/server.js.
 -	>Note to restart the server you should type ```rs``` in the terminal
