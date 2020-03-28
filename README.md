@@ -1,4 +1,19 @@
-# OmniStackV11 ![OmniweekLogo](https://i.imgur.com/IIu0voR.jpg)
+<h1 align="center">Omnistack V11</h1>
+<p align="center">Projeto <strong>BeTheHero</strong></p>
+
+<p align="center">
+  <a aria-label="Versão do Node" href="https://github.com/nodejs/node/blob/master/doc/changelogs/CHANGELOG_V12.md#12.14.1">
+    <img src="https://img.shields.io/badge/node.js@lts-12.16.1-informational?logo=Node.JS"></img>
+  </a>
+  <a aria-label="Versão do React" href="https://github.com/facebook/react/blob/master/CHANGELOG.md#16120-november-14-2019">
+    <img src="https://img.shields.io/badge/react-16.13.1-informational?logo=react"></img>
+  </a>
+  <a aria-label="Versão do Expo" href="https://www.npmjs.com/package/expo-cli/v/3.11.5">
+    <img src="https://img.shields.io/badge/expo--CLI-3.16.1-informational?logo=expo"></img>
+  </a>
+</p>
+
+![OmniweekLogo](https://i.imgur.com/IIu0voR.jpg)
 
 **About** the OmniWeek 11: In a week with the help of [Rocketseat](https://github.com/Rocketseat/), specially [Diego](https://github.com/diego3g), I would develop full stack  software. In special this week would is Be The Hero.
  
