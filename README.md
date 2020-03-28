@@ -3,7 +3,7 @@
 **About** the OmniWeek 11: In a week with the help of [Rocketseat](https://github.com/Rocketseat/), specially [Diego](https://github.com/diego3g), I would develop full stack  software. In special this week would is Be The Hero.
  
 ## Project: Be The Hero!
-The **concept ideia about the project is**: A lot of non-profits have cases (incidents) that they want to solve but they don't have enough manpower to do it, to solve that issue the Non-profit would access our system and share all the details about the case that they want to solve, and the reward for who solves it. In that concept was born Be The Hero, **a platform for web and mobile that would communicate the Non-Profits cases with their heroes.**
+The **concept ideia about the project is**: A lot of non-profits have cases (incidents) that they want to solve but they don't have enough manpower to do it, to solve that issue the Non-profit would access our system and share all the details about the case that they want to solve, and the reward for who solves it. In that concept was born **Be The Hero, a platform for web and mobile that would communicate the Non-Profits cases with their heroes.**
   
 ### Built with
 - **[NodeJS**(https://github.com/nodejs/node) for backend
