@@ -26,7 +26,7 @@ The **concept ideia about the project is**: A lot of non-profits have cases (inc
 - **[ReactJs](https://github.com/facebook/react)** for frontend
 	- [Axios](https://github.com/axios/axios)
 - **[ReactNative](https://github.com/facebook/react-native)** for mobile
- 	- [Expo & Expo-Mail-Composer](https://github.com/axios/axios) and [Intl](https://github.com/formatjs/react-intl)
+ 	- [Expo & Expo-Mail-Composer](https://github.com/expo/expo) and [Intl](https://github.com/formatjs/react-intl)
 
 
 > *PS: Note that I only mentioned the main dependencies listed in the package.json of each project, check each one for more dependencies.*
